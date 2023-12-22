@@ -102,6 +102,11 @@ form .button input{
 form .button input:hover{
     background: linear-gradient(-120deg, blue,violet);
 }
+thead{
+    /* display: flex;
+    justify-content: center; */
+    color: #9b59b6;
+}
 @media(max-width: 584px){
     .container{
         max-width: 100%;
