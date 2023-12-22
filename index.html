@@ -13,27 +13,27 @@
             <div class="user-details">
                 <div class="input-box">
                     <span class="details">Full Name</span>
-                    <input type="text" placeholder="Enter your name" required>
+                    <input id="fname" type="text" placeholder="Enter your name" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Last Name</span>
-                    <input type="text" placeholder="Enter your Last name" required>
+                    <input id="lname" type="text" placeholder="Enter your Last name" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Address</span>
-                    <input type="text" placeholder="Enter your Address" required>
+                    <input id="address" type="text" placeholder="Enter your Address" required>
                 </div>
                 <div class="input-box">
                     <span class="details">PinCode</span>
-                    <input type="number" placeholder="Enter your PinCode" required>
+                    <input id="pin" type="number" placeholder="Enter your PinCode" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Country</span>
-                    <input type="text" placeholder="Enter your Country" required>
+                    <input id="country" type="text" placeholder="Enter your Country" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Food Name</span>
-                    <input type="text" placeholder="Enter your Food" required>
+                    <input id="food" type="text" placeholder="Enter your Food" required>
                 </div>
             </div>
             <div class="gender-details">
@@ -60,6 +60,30 @@
                 <input type="submit" value="Register">
             </div>
         </form>
+        <div class="table">
+            <table>
+                <thead>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Address</th>
+                    <th>Pincode</th>
+                    <th>Country</th>
+                    <th>Food Name</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="td1"></td>
+                        <td id="td2"></td>
+                        <td id="td3"></td>
+                        <td id="td4"></td>
+                        <td id="td5"></td>
+                        <td id="td6"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
