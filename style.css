@@ -108,10 +108,10 @@ thead{
     color: #9b59b6;
 }
 table thead th{
-    padding: 15px;
+    padding: 0px 15px;
 }
 table tbody tr td{
-    padding: 15px;
+    padding: 0px 15px;
 }
 @media(max-width: 584px){
     .container{
